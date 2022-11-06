@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+   text-align: center; 
+   background-image:url(83106.jpg) ;
+   background-size: cover;
+   background-repeat:repeat ;
+   text-align: center;
+   color: bisque;
+   font-family: default, sans-serif;
+      
+}
+
+.login_area{
+    width: 350px;
+    height: 400px;
+    background-color:rgba(21, 18, 18, 0.659);  
+    margin: 300px auto 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(34, 32, 34, 0.273);
+
+}
+
+h1{
+    
+    padding-top: 30px;
+}
+.UName-text{
+    position: relative;
+    width: 40%;
+    padding-top: 80px;
+    left: 20px;
+}
+
+.password-text{
+    position: relative;
+    width: 40%;
+    padding-top: 80px;
+    left: 20px;
+}
+
+.input_field-Uname{
+    position: relative;
+    width: 145px;
+    left: 40px;
+    bottom: 15px;
+    border: none;
+    border-bottom: 1px solid bisque;
+    color: bisque;
+    background: none;
+    outline: none;
+    font-size: 14px;
+ 
+
+}
+.input_field-pasword{
+    position: relative;
+    width: 145px;
+    left: 110px;
+    bottom: 15px;
+    border:none;
+    border-bottom: 1px solid bisque;
+    color: bisque;
+    background: none;
+    outline: none;
+    font-size: 14px;
+
+}
+.input_field-Uname:hover{
+    border-color: orange;
+
+}
+.input_field-pasword:hover{
+    border-color: orange;
+}
+
+
+.login-btn{
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(236, 165, 0);
+    position: relative;
+    top: 70px;
+    left:40px;
+    border-radius: 3px;
+    color: black;
+    text-decoration: none;
+
+}
+.login-btn:hover {
+
+    background-color: rgb(0, 0, 0);
+    color:bisque;
+    border: 1px solid;
+    transition: 0.3s all ease-in-out; 
+} 
+
+.anchor_tag-forgot_password{
+    position: relative;
+    right: 30px;
+    top: 20px;
+    font-size: 10px;
+    color:bisque;
+    text-decoration: none;
+    
+}
+
+.anchor_tag-forgot_password:hover{
+    color: orange;
+    transition: 0.3s all ease-in-out;
+
+}
+.check_box{
+    width: 80px;
+    position: relative;
+    left: 130px;
+    font-size: 10px;
+    color:bisque;
+    text-decoration: none;
+
+}
+#input-remember_me{
+    position: relative;
+    top: 5px;
+    
+}
+
+#label-remember_me{
+    position: relative;
+    top: 2px;
+
+}
+
+
+
+
+
+          /*footer area social icons */
+
+ul{
+    display: flex;
+    justify-content: center;
+
+
+} 
+ul li{
+    margin: 30px;
+    list-style: none;
+    background-color: black;
+    border-radius: 50%;
+       
+}
+
+ul li i{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 12px;
+
+}
+ul li:hover{
+
+    box-shadow: 0 0 10px  rgb(255, 179, 2);
+    transition: 0.6s all ease-in-out;
+
+}
+
+ul li i:hover {
+    color:rgb(236, 165, 0) ;
+    transition: 0.6s all ease-in-out;
+
+}
+
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
