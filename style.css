@@ -6,7 +6,7 @@
 
 body{
    text-align: center; 
-   background-image:url(83106.jpg) ;
+   background-image:url(background-image.jpg) ;
    background-size: cover;
    background-repeat:repeat ;
    text-align: center;
@@ -16,20 +16,20 @@ body{
 }
 
 .login_area{
-    width: 350px;
-    height: 400px;
+    width: 500px;
+    height: 550px;
     background-color:rgba(21, 18, 18, 0.659);  
-    margin: 300px auto 10px;
+    margin: 200px auto 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(34, 32, 34, 0.273);
 
 }
 
 h1{
-    
-    padding-top: 30px;
+    font-size: 2.5rem;
+    padding-top: 50px;
 }
-.UName-text{
+.user-name-text{
     position: relative;
     width: 40%;
     padding-top: 80px;
@@ -43,9 +43,9 @@ h1{
     left: 20px;
 }
 
-.input_field-Uname{
+.input_field-user_name{
     position: relative;
-    width: 145px;
+    width: 200px;
     left: 40px;
     bottom: 15px;
     border: none;
@@ -59,8 +59,8 @@ h1{
 }
 .input_field-pasword{
     position: relative;
-    width: 145px;
-    left: 110px;
+    width: 200px;
+    left: 100px;
     bottom: 15px;
     border:none;
     border-bottom: 1px solid bisque;
@@ -70,21 +70,21 @@ h1{
     font-size: 14px;
 
 }
-.input_field-Uname:hover{
-    border-color: orange;
+.input_field-user_name:hover{
+    border-color: rgb(236, 165, 0);
 
 }
 .input_field-pasword:hover{
-    border-color: orange;
+    border-color: rgb(236, 165, 0);
 }
 
 
 .login-btn{
-    padding: 5px 10px 5px 10px;
+    padding: 8px 15px 8px 15px;
     background-color: rgb(236, 165, 0);
     position: relative;
     top: 70px;
-    left:40px;
+    left:105px;
     border-radius: 3px;
     color: black;
     text-decoration: none;
@@ -100,24 +100,24 @@ h1{
 
 .anchor_tag-forgot_password{
     position: relative;
-    right: 30px;
-    top: 20px;
-    font-size: 10px;
+    right: 100px;
+    top: 170px;
+    font-size: 1rem;
     color:bisque;
     text-decoration: none;
     
 }
 
 .anchor_tag-forgot_password:hover{
-    color: orange;
+    color: rgb(236, 165, 0);
     transition: 0.3s all ease-in-out;
 
 }
 .check_box{
-    width: 80px;
+    width: 150px;
     position: relative;
-    left: 130px;
-    font-size: 10px;
+    left: 245px;
+    font-size: 15px;
     color:bisque;
     text-decoration: none;
 
@@ -125,7 +125,14 @@ h1{
 #input-remember_me{
     position: relative;
     top: 5px;
+    left: 110px;
+    accent-color: rgb(236, 165, 0);
     
+    
+}
+#input-remember_me:checked{
+background-color:rgb(236, 165, 0);
+
 }
 
 #label-remember_me{
@@ -133,9 +140,6 @@ h1{
     top: 2px;
 
 }
-
-
-
 
 
           /*footer area social icons */
@@ -147,7 +151,7 @@ ul{
 
 } 
 ul li{
-    margin: 30px;
+    margin: 40px;
     list-style: none;
     background-color: black;
     border-radius: 50%;
@@ -156,9 +160,10 @@ ul li{
 
 ul li i{
     position: relative;
-    width: 40px;
-    height: 40px;
-    top: 12px;
+    width: 50px;
+    height: 50px;
+    top: 15px;
+    font-size: 1.3rem;
 
 }
 ul li:hover{
